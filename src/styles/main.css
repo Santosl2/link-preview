@@ -1,0 +1,44 @@
+:root {
+  --blue-500: #4d7ea8;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #272932;
+  color: white;
+}
+
+main {
+  max-width: 1200px;
+  height: 100dvh;
+  margin: 0 auto;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid var(--blue-500);
+  outline: none;
+  padding: 1rem;
+  width: 100%;
+  display: block;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  gap: 0.8rem;
+}
+.col {
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue-500);
+}
